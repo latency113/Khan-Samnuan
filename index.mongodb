@@ -1,0 +1,29 @@
+use("newtonice");
+
+db.Camera.insertMany([
+  {
+    ip_address: "11.11.11.11",
+    name: "Camera 1",
+    location: "test",
+  },
+  {
+    ip_address: "11.11.11.22",
+    name: "Camera 2",
+    location: "test2",
+  },
+  {
+    ip_address: "11.11.11.33",
+    name: "Camera 3",
+    location: "test3",
+  },
+  {
+    ip_address: "11.11.11.44",
+    name: "Camera 4",
+    location: "test4",
+  },
+  {
+    ip_address: "11.11.11.55",
+    name: "Camera 5",
+    location: "test5",
+  },
+]);
